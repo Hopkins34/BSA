@@ -26,8 +26,9 @@ input, button, textarea {
     --FF: "Nunito", sans-serif;
     --FF-HEADING: "Fugaz One", cursive;
     --FS: clamp(1rem, 2.2vh, 1.5rem);
-    --FS-NAV: clamp(0.6rem, 2.8vw, 1rem);
+    --FS-NAV: clamp(0.3rem, 2.8vw, 1rem);
     --FS-HERO: clamp(0.75rem, 2.2vw, 1.5rem);
+    --FS-FOOTER: 0.75rem;
 
     /* Colors */
     --BG-COLOR: #403C4F;
@@ -221,6 +222,7 @@ footer {
     position: sticky;
     bottom: 0;
     z-index: 1;
+    font-size: var(--FS-FOOTER);
     background-color: var(--HEADER-BGCOLOR);
     color: var(--HEADER-COLOR);
     padding: var(--PADDING-TB) var(--PADDING-SIDE);
