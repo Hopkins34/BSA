@@ -27,7 +27,7 @@ input, button, textarea {
     --FF-HEADING: "Fugaz One", cursive;
     --FS: clamp(1rem, 2.2vh, 1.5rem);
     --FS-NAV: clamp(0.3rem, 2.8vw, 1rem);
-    --FS-HERO: clamp(0.75rem, 2.2vw, 1.5rem);
+    --FS-HERO: clamp(0.6rem, 2.2vw, 1.5rem);
     --FS-FOOTER: 0.75rem;
 
     /* Colors */
